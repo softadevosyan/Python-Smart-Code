@@ -20,30 +20,19 @@
 # except:
 #     print('Write numbers not letters!')
 
-# PASSWORD
-# char = '!@%$#*&'
-# while True:
+# PASSWORD??
+# x = input('Enter password-->')
+# try:
 #     try:
-#         char_count = 0
-#         number_count = 0
-#         password = input("Enter the password-->")
-#         if len(password) < 8:
-#             print('The password is not strong')
-#             continue 
+#         if len(x) == 4:
+#             print('You have to have lower cases')
 #     except:
-#         if password[0].isupper():
-#             for i in password:
-#                 if i in char:
-#                     char_count += 1
-#                 elif i.isdigit():
-#                     number_count += 1
-#         else:            
-#             print('The password is not strong')
-#             continue
+#         print('Write only 4 chars')
 #     try:
-#         if number_count >= 2 and char_count >= 2:
-#             print(password, 'Strong Password')
-#             break
+#         if x[0].islower():
+#             print('It has to contain numbers as well')
 #     except:
-#         print('The password is not strong')
-#         continue
+#         print('Only lower case')
+# except:
+#     print('OK')
+
