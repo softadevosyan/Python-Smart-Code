@@ -1,0 +1,12 @@
+1 Bear
+#2 Dog
+#3 Crocodile
+4 Fox
+5 Lion
+6 Shark
+7 Snake
+8 Tiger
+9 Cat
+10 Cow
+11 Frog
+12 Kagaroo
